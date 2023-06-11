@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Css Files -->
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <!-- Font Awesome Library -->
+    <link rel="stylesheet" href="css/all.min.css" />
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <title>Template 8</title>
+  </head>
+  <body>
+    <!-- Start Header -->
+    <header>
+      <div class="container">
+        <div class="logo">
+          <img src="images/templatemo-eduwell.png" alt="" />
+        </div>
+        <nav>
+          <i class="fa fa-bars"></i>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#courses">Courses</a></li>
+            <li><a href="#testimonials">Testimonials</a></li>
+            <li><a href="#contact">Contact Us</a></li>
+          </ul>
+        </nav>
+      </div>
+      <script>
+        const icon = document.querySelector("nav i.fa-bars");
+
+        const list = document.querySelector("nav ul");
+
+        icon.addEventListener("click", function () {
+          if (list.style.display === "none" || list.style.display === "") {
+            list.style.display = "flex";
+          } else {
+            list.style.display = "none";
+          }
+        });
+      </script>
+    </header>
+    <!-- End Header -->
+    <!-- Start Hero -->
+    <section class="hero">
+      <div class="container">
+        <div class="text">
+          <h3>Welcome To Our School</h3>
+          <h1>
+            Best Place To Learn Graphic
+            <span style="color: var(--secondary-color)">Design!</span>
+          </h1>
+          <button>Join Us Now!</button>
+        </div>
+        <div class="image">
+          <img src="images/banner-right-image.png" alt="" />
+        </div>
+      </div>
+    </section>
+    <!-- End Hero -->
+    <!-- Start Services -->
+    <section class="services" id="services">
+      <div class="container">
+        <div class="heading">
+          <h4>OUR SERVICES</h4>
+          <h2>Provided <span>Services</span></h2>
+        </div>
+        <div class="cards">
+          <div class="card">
+            <img src="images/service-icon-01.png" alt="" />
+            <h2>Useful Tricks</h2>
+            <p>
+              In non nisi eget magna efficitur ultricies non quis sapien.
+              Pellentesque tellus.
+            </p>
+          </div>
+          <div class="card">
+            <img src="images/service-icon-02.png" alt="" />
+            <h2>Creative Ideas</h2>
+            <p>
+              Aenean bibendum consectetur ex eu porttitor. Pellentesque id
+              ultrices metus.
+            </p>
+          </div>
+          <div class="card">
+            <img src="images/service-icon-03.png" alt="" />
+            <h2>Ready Target</h2>
+            <p>
+              In non nisi eget magna efficitur ultricies non quis sapien.
+              Pellentesque tellus.
+            </p>
+          </div>
+          <div class="card">
+            <img src="images/service-icon-04.png" alt="" />
+            <h2>Technology</h2>
+            <p>
+              Aenean bibendum consectetur ex eu porttitor. Pellentesque id
+              ultrices metus.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Services -->
+    <!-- Start Courses -->
+    <section class="courses" id="courses">
+      <div class="container">
+        <div class="heading">
+          <h4>OUR COURSES</h4>
+          <h2>What You Can <span>Learn</span></h2>
+        </div>
+        <div class="course" style="border-top: none">
+          <h2>Web Development</h2>
+          <div class="box">
+            <div class="image">
+              <div class="price">$128</div>
+              <img src="images/courses-01.jpg" alt="" />
+            </div>
+            <div class="text">
+              <h2>Web Development</h2>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet
+                nemo nisi perferendis est possimus doloribus, dolorum sunt
+                provident deserunt nihil voluptas atque velit! Dolores, aliquid
+                praesentium rerum dicta magnam alias?
+              </p>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet
+                nemo nisi perferendis est possimus doloribus, dolorum sunt
+                provident deserunt nihil voluptas atque velit! Dolores, aliquid
+                praesentium rerum dicta magnam alias?
+              </p>
+              <div class="hours">36 Hours</div>
+              <div class="weeks">4 Weeks</div>
+              <div class="certifiacte">3 Certifiactes</div>
+              <a href="#"><h3>Subscribe course</h3></a>
+            </div>
+          </div>
+        </div>
+        <div class="course">
+          <h2>Graphic Design</h2>
+          <div class="box">
+            <div class="image">
+              <div class="price">$156</div>
+              <img src="images/courses-02.jpg" alt="" />
+            </div>
+            <div class="text">
+              <h2>Creative Graphic Design</h2>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet
+                nemo nisi perferendis est possimus doloribus, dolorum sunt
+                provident deserunt nihil voluptas atque velit! Dolores, aliquid
+                praesentium rerum dicta magnam alias?
+              </p>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet
+                nemo nisi perferendis est possimus doloribus, dolorum sunt
+                provident deserunt nihil voluptas atque velit! Dolores, aliquid
+                praesentium rerum dicta magnam alias?
+              </p>
+              <div class="hours">48 Hours</div>
+              <div class="weeks">6 Weeks</div>
+              <div class="certifiacte">Certifiacte</div>
+              <a href="#"><h3>Subscribe course</h3></a>
+            </div>
+          </div>
+        </div>
+        <div class="course">
+          <h2>Web Design</h2>
+          <div class="box">
+            <div class="image">
+              <div class="price">$184</div>
+              <img src="images/courses-03.jpg" alt="" />
+            </div>
+            <div class="text">
+              <h2>Web Design</h2>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet
+                nemo nisi perferendis est possimus doloribus, dolorum sunt
+                provident deserunt nihil voluptas atque velit! Dolores, aliquid
+                praesentium rerum dicta magnam alias?
+              </p>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet
+                nemo nisi perferendis est possimus doloribus, dolorum sunt
+                provident deserunt nihil voluptas atque velit! Dolores, aliquid
+                praesentium rerum dicta magnam alias?
+              </p>
+              <div class="hours">28 Hour</div>
+              <div class="weeks">4 Weeks</div>
+              <div class="certifiacte">1 Certifiacte</div>
+              <a href="#"><h3>Subscribe course</h3></a>
+            </div>
+          </div>
+        </div>
+        <div class="course">
+          <h2>WordPress</h2>
+          <div class="box">
+            <div class="image">
+              <div class="price">$76</div>
+              <img src="images/courses-04.jpg" alt="" />
+            </div>
+            <div class="text">
+              <h2>WordPress Introduction</h2>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet
+                nemo nisi perferendis est possimus doloribus, dolorum sunt
+                provident deserunt nihil voluptas atque velit! Dolores, aliquid
+                praesentium rerum dicta magnam alias?
+              </p>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet
+                nemo nisi perferendis est possimus doloribus, dolorum sunt
+                provident deserunt nihil voluptas atque velit! Dolores, aliquid
+                praesentium rerum dicta magnam alias?
+              </p>
+              <div class="hours">48 Hour</div>
+              <div class="weeks">4 Weeks</div>
+              <div class="certifiacte">2 Certifiactes</div>
+              <a href="#"><h3>Subscribe course</h3></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Courses -->
+    <!-- Start Offer -->
+    <section class="offer">
+      <div class="container">
+        <div class="image">
+          <img src="images/cta-left-image.png" alt="" />
+        </div>
+        <div class="text">
+          <h3>Get the sale right now!</h3>
+          <h1>Up to 50% OFF For 1+ courses</h1>
+          <p>
+            Kogi VHS freegan bicycle rights try-hard green juice probably
+            haven't heard of them cliche la croix af chillwave.
+          </p>
+          <button>View Courses</button>
+        </div>
+      </div>
+    </section>
+    <!-- End Offer -->
+    <!-- Start Testimonials -->
+    <section class="testimonials" id="testimonials">
+      <div class="container">
+        <div class="heading">
+          <h4>TESTIMONIALS</h4>
+          <h2>What They <span>Think</span></h2>
+        </div>
+        <div class="box">
+          <div class="testimonial">
+            <q
+              >Praesent accumsan condimentum arcu, id porttitor est semper nec.
+              Nunc diam lorem.</q
+            >
+            <div class="data">
+              <div class="name">
+                <h2>David Matrin</h2>
+                <h4>CTO Of Teach Company</h4>
+              </div>
+              <div class="image">
+                <img src="images/quote.png" alt="" />
+              </div>
+            </div>
+          </div>
+          <div class="testimonial">
+            <q
+              >Praesent accumsan condimentum arcu, id porttitor est semper nec.
+              Nunc diam lorem.</q
+            >
+            <div class="data">
+              <div class="name">
+                <h2>James Wiliam</h2>
+                <h4>CEO</h4>
+              </div>
+              <div class="image">
+                <img src="images/quote.png" alt="" />
+              </div>
+            </div>
+          </div>
+          <div class="testimonial">
+            <q
+              >Praesent accumsan condimentum arcu, id porttitor est semper nec.
+              Nunc diam lorem.</q
+            >
+            <div class="data">
+              <div class="name">
+                <h2>Amelia Henry</h2>
+                <h4>CTO Of Teach Company</h4>
+              </div>
+              <div class="image">
+                <img src="images/quote.png" alt="" />
+              </div>
+            </div>
+          </div>
+          <div class="testimonial">
+            <q
+              >Praesent accumsan condimentum arcu, id porttitor est semper nec.
+              Nunc diam lorem.</q
+            >
+            <div class="data">
+              <div class="name">
+                <h2>Sofia Danial</h2>
+                <h4>CTO Of Teach Company</h4>
+              </div>
+              <div class="image">
+                <img src="images/quote.png" alt="" />
+              </div>
+            </div>
+          </div>
+          <div class="testimonial">
+            <q
+              >Praesent accumsan condimentum arcu, id porttitor est semper nec.
+              Nunc diam lorem.</q
+            >
+            <div class="data">
+              <div class="name">
+                <h2>Sophia Whity</h2>
+                <h4>Marketing Maneger</h4>
+              </div>
+              <div class="image">
+                <img src="images/quote.png" alt="" />
+              </div>
+            </div>
+          </div>
+          <div class="testimonial">
+            <q
+              >Praesent accumsan condimentum arcu, id porttitor est semper nec.
+              Nunc diam lorem.</q
+            >
+            <div class="data">
+              <div class="name">
+                <h2>George Soft</h2>
+                <h4>Gadget Reviewer</h4>
+              </div>
+              <div class="image">
+                <img src="images/quote.png" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Testimonials -->
+    <!-- Start Contact -->
+    <section class="contact" id="contact">
+      <div class="container">
+        <div class="map">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d12345.351754425836!2d29.99006754595286!3d31.261862396340927!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e1!3m2!1sar!2seg!4v1686467957391!5m2!1sar!2seg"
+            width="600"
+            height="450"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+          <div class="phones">
+            <div class="phone">
+              <div class="icon">
+                <i class="fa-solid fa-phone"></i>
+              </div>
+              <div class="data">
+                <h2>PHONE</h2>
+                <h4>010-020-0340</h4>
+              </div>
+            </div>
+            <div class="phone">
+              <div class="icon">
+                <i class="fa-solid fa-phone"></i>
+              </div>
+              <div class="data">
+                <h2>MOBILE</h2>
+                <h4>090-080-0760</h4>
+              </div>
+            </div>
+          </div>
+        </div>
+        <form action="#">
+          <div class="heading">
+            <h4>contact us</h4>
+            <h2>Say <span>Hello</span></h2>
+          </div>
+          <h3>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sapiente
+            excepturi vero facere esse minima amet provident neque itaque
+            expedita
+          </h3>
+          <input type="text" placeholder="Full Name" required />
+          <input type="email" placeholder="Your Email" required />
+          <textarea
+            cols="30"
+            rows="10"
+            placeholder="Your Message"
+            required
+          ></textarea>
+          <button>SEND MESSAGE</button>
+        </form>
+      </div>
+    </section>
+    <!-- End Contact -->
+    <!-- Start Footer -->
+    <footer>
+      <div class="container">
+        <div class="icons">
+          <div class="icon">
+            <i class="fa-brands fa-facebook-f"></i>
+          </div>
+          <div class="icon">
+            <i class="fa-brands fa-twitter"></i>
+          </div>
+          <div class="icon">
+            <i class="fa-brands fa-github"></i>
+          </div>
+          <div class="icon">
+            <i class="fa-brands fa-linkedin-in"></i>
+          </div>
+          <div class="icon">
+            <i class="fa-solid fa-rss"></i>
+          </div>
+          <div class="icon">
+            <i class="fa-brands fa-dribbble"></i>
+          </div>
+        </div>
+        <h3>
+          Copyright © 2022 EduWell Co., Ltd. All Rights Reserved. Design:
+          <span>Zyad_Ramadan</span>
+        </h3>
+      </div>
+    </footer>
+    <!-- End Footer -->
+  </body>
+</html>
